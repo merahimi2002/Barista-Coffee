@@ -1,0 +1,6 @@
+# Barista Coffee - robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://merahimi2002.github.io/Barista-Coffee/sitemap.xml

@@ -81,10 +81,76 @@ sm-list
 copyright
 ```
 
-Homepage:
+Homepage / Hero Slider:
 
 ```text
-Homepage
+HeroSection
+HeroSlider
+HeroSlide
+HeroSlide-caption
+HeroBtn
+```
+
+About Section:
+
+```text
+AboutSection
+SectionTitr
+AboutImage
+AboutFeature
+PrimaryBtn
+```
+
+Products Section:
+
+```text
+ProductsSection
+ProductsIntro
+ProductsTabs
+ProductsCarousel
+ProductCard
+ProductCard-img
+ProductCard-body
+ProductCard-price
+```
+
+Articles Section:
+
+```text
+ArticlesSection
+ArticleCard
+ArticleCard-img
+ArticleCard-body
+ArticleCard-tag
+ArticleCard-link
+```
+
+Contact Section (info-only — form removed by owner decision):
+
+```text
+ContactSection
+ContactInfo
+ContactInfo-list
+```
+
+Why Section:
+
+```text
+WhySection
+WhyCard
+```
+
+Testimonials Section:
+
+```text
+TestimonialsSection
+TestimonialsCarousel
+TestimonialCard
+TestimonialCard-stars
+TestimonialCard-text
+TestimonialCard-footer
+TestimonialCard-avatar
+TestimonialCard-meta
 ```
 
 ---
@@ -108,7 +174,14 @@ Existing public functions include:
 changeColor()
 changeColor01()
 hexToRgb()
+initProductsCarousel()
+hideOwlClones()
 ```
+
+source.js works with anonymous DOMContentLoaded listeners. The hero, product
+and testimonials carousels are each initialized in their own listener and call
+hideOwlClones() right after init (the contact-form submit handler was removed
+together with the form — owner decision).
 
 Do not rename them without updating every usage.
 

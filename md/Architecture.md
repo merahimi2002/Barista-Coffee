@@ -29,9 +29,11 @@ The project currently follows:
 │
 ├── js/
 │   ├── bootstrap.min.js
+│   ├── jquery.min.js
 │   ├── owl.carousel.min.js
 │   ├── point.js
 │   ├── wow.min.js
+│   ├── product.js
 │   └── source.js
 │
 ├── Image/
@@ -117,6 +119,7 @@ footer-box
 footer-address
 footer-links
 footer-contact
+footer-hours
 sm-list
 copyright
 ```
@@ -147,7 +150,10 @@ The project currently centralizes custom JavaScript in:
 js/source.js
 ```
 
-Before creating another JavaScript file, check whether the functionality belongs in an existing file.
+The one exception is `js/product.js` — a data-only file (the PRODUCTS menu
+array) that is loaded before source.js and consumed by renderProducts().
+Before creating another JavaScript file, check whether the functionality
+belongs in an existing file.
 
 ---
 

@@ -98,6 +98,18 @@ sitemap.xml
 
 ---
 
+## Current Status
+
+Both `robots.txt` and `sitemap.xml` exist at the project root.
+
+- The site is a single public page (`index.html`), so the sitemap lists the root URL only.
+- Both files currently use the placeholder domain `https://www.example.com/`.
+- Before deploying, replace `www.example.com` in both files with the real domain.
+- If a canonical URL / `og:url` is later added to `index.html`, it must use the same domain as the sitemap.
+
+
+---
+
 ## Content Integrity
 
 AI must never invent:

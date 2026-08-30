@@ -3,15 +3,24 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="کافه باریستا؛ قهوه‌ی تازه، دمنوش‌های گیاهی و دسرهای خانگی در فضایی گرم و دلنشین. هر روز صبح تا شب کنار شماست.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fa_IR">
+    <meta property="og:site_name" content="کافه باریستا">
+    <meta property="og:title" content="کافه باریستا | قهوه تازه، دمنوش و دسر">
+    <meta property="og:description"
+        content="کافه باریستا؛ قهوه‌ی تازه، دمنوش‌های گیاهی و دسرهای خانگی در فضایی گرم و دلنشین. هر روز صبح تا شب کنار شماست.">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="Css/bootstrap.min.css" />
     <link rel="stylesheet" href="Css/bootstrap-Icon.min.css" />
     <link rel="stylesheet" href="Css/owl.carousel.min.css" />
     <link rel="stylesheet" href="Css/newAnimate.css" />
     <link rel="stylesheet" href="Css/Style.css" />
     <link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon">
-    <title>کافه باریستا</title>
+    <title>کافه باریستا | قهوه تازه، دمنوش و دسر</title>
 </head>
 
 <body>
@@ -24,48 +33,39 @@
                     <nav class="navbar navbar-expand-lg">
                         <button class="navbar-toggler first-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="">
+                            aria-expanded="false" aria-label="باز و بسته کردن منو">
                             <div class="animated-icon1"><span></span><span></span><span></span></div>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="/">خانه</a>
+                                    <a class="nav-link" href="#home">خانه</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">درباره ما</a>
+                                    <a class="nav-link" href="#about">درباره ما</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">ارتباط با ما</a>
+                                    <a class="nav-link" href="#products">محصولات</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">محصولات</a>
+                                    <a class="nav-link" href="#articles">مقالات</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">اخبار</a>
+                                    <a class="nav-link" href="#why">چرا ما</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">بلاگ</a>
+                                    <a class="nav-link" href="#testimonials">رضایت مشتریان</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">ارتباط با ما</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
-                <div class="col-md-3 col-3 wow animate__animated animate__fadeInUp">
+                <div class="col-md-2 col-3 wow animate__animated animate__fadeInUp">
                     <div class="SideNav">
                         <div class="ChangeThemeBox">
-                            <div class="CustomColorPicker">
-                                <input type="color" id="firstColorInput">
-                                <input type="color" id="secondColorInput">
-                            </div>
-                            <button class="d-none d-md-flex ChangeColorBtn" onclick="changeColor()">
-                                <span class="color01">.</span>
-                                <span class="color02">.</span>
-                            </button>
-                            <button class="d-none d-md-flex ChangeColorBtn ChangeColorBtn01" onclick="changeColor01()">
-                                <span class="color01">.</span>
-                                <span class="color02">.</span>
-                            </button>
                             <div id="ThemeBoxSwitch">
                                 <input type="checkbox" class="checkbox" id="ThemeBoxSwitchInput">
                                 <label class="label" for="ThemeBoxSwitchInput">
@@ -77,59 +77,440 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1 col-3">
+                <div class="col-md-2 col-3">
                     <div class="logo-header">
-                        <a href="/"><img src="Image/logo.png" alt="pic"></a>
+                        <a href="/"><img src="Image/logo.png" alt="لوگو کافه باریستا"></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="Homepage">
-        <img src="Image/سسس.jpg" alt="pic">
-    </div>
-    <footer>
+    <section id="home" class="HeroSection">
+        <div class="HeroSlider owl-carousel owl-theme">
+            <div class="HeroSlide">
+                <img src="Image/Slider01.png" alt="فنجان قهوه با لاته‌آرت روی میز چوبی">
+                <div class="HeroSlide-caption wow animate__animated animate__fadeInUp">
+                    <h1>کافه باریستا</h1>
+                    <p>عطر قهوه‌ی تازه، فضایی گرم و لحظه‌هایی که دلتان می‌خواهد توقف کنید؛ این‌جا خانه‌ی قهوه‌ی شماست.
+                    </p>
+                    <a class="ReadMore" href="#products">مشاهده منو</a>
+                </div>
+            </div>
+            <div class="HeroSlide Even">
+                <img src="Image/Slider02.png" alt="دانه‌های قهوه‌ی تازه">
+                <div class="HeroSlide-caption">
+                    <h2>از دانه تا فنجان</h2>
+                    <p>دانه‌های تازه‌رست با دقت انتخاب می‌شوند تا هر فنجان، طعمی کامل و به‌یادماندنی داشته باشد.</p>
+                    <a class="ReadMore" href="#products">مشاهده محصولات</a>
+                </div>
+            </div>
+            <div class="HeroSlide">
+                <img src="Image/Slider03.png" alt="فضای داخلی دنج کافه">
+                <div class="HeroSlide-caption">
+                    <h2>فضایی برای ماندن</h2>
+                    <p>در شلوغی روز، یک گوشه‌ی آرام برای خودتان پیدا کنید؛ بنشینید و لذت یک فنجان داغ را تجربه کنید.</p>
+                    <a class="ReadMore" href="#products">مشاهده منو</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="AboutSection">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                    <div class="footer-box footer-address">
-                        <div class="logo-footer">
-                            <a href="/"><img src="Image/logo.png" alt="pic"></a>
-                        </div>
-                        <p>لورم ایپسوم <span>متن ساختگی</span> با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                            گرافیک است.
-                        </p>
-                        <ul class="sm-list">
-                            <li><a href="#" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="bi bi-telegram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
-                        </ul>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                    <div class="AboutImage">
+                        <img src="Image/about-barista.jpg" alt="باریستا در حال آماده‌سازی قهوه با لاته‌آرت"
+                            loading="lazy" decoding="async">
                     </div>
                 </div>
-                <div class="col-md-1 col-12"></div>
-                <div class="col-md-3 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-                    <div class="footer-box footer-links">
-                        <h5><span>دسترسی </span> سریع</h5>
-                        <ul>
-                            <li><i class="bi bi-chevron-double-left"></i><a href="/">خانه</a></li>
-                            <li><i class="bi bi-chevron-double-left"></i><a href="#">درباره ما</a></li>
-                            <li><i class="bi bi-chevron-double-left"></i><a href="#">ارتباط با ما</a></li>
-                            <li><i class="bi bi-chevron-double-left"></i><a href="#">محصولات</a></li>
+                <div class="col-lg-6 col-12">
+                    <div class="AboutContent">
+                        <div class="SectionTitr wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                            <h2>درباره <strong>کافه باریستا</strong></h2>
+                        </div>
+                        <p class="wow animate__animated animate__fadeInUp" data-wow-delay=".7s">کافه باریستا از عشق به
+                            قهوه شروع شد؛ جایی که هر فنجان با دقت و حوصله آماده می‌شود. ما باور داریم قهوه فقط یک
+                            نوشیدنی نیست؛ بهانه‌ای است برای توقف کردن و بودن کنار هم. از اسپرسوی غلیظ تا دمنوش‌های
+                            آرامش‌بخش و دسرهای خانگی، هرچه سفره‌ی شما را گرم‌تر کند، این‌جا پیدا می‌شود.</p>
+                        <ul class="AboutFeature">
+                            <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".9s">
+                                <i class="bi bi-cup-hot" aria-hidden="true"></i>
+                                <div>
+                                    <h3>قهوه‌ی تازه‌رست</h3>
+                                    <p>دانه‌های تازه‌رست را با دقت انتخاب می‌کنیم تا هر فنجان، عطر و طعمی کامل و
+                                        به‌یادماندنی داشته باشد.</p>
+                                </div>
+                            </li>
+                            <li class="wow animate__animated animate__fadeInUp" data-wow-delay="1.1s">
+                                <i class="bi bi-cake2" aria-hidden="true"></i>
+                                <div>
+                                    <h3>دمنوش و دسر خانگی</h3>
+                                    <p>در کنار قهوه، دمنوش‌های گیاهی و دسرهای تازه‌ی خانگی هم برای سلیقه‌های متنوع
+                                        آماده می‌شود.</p>
+                                </div>
+                            </li>
+                            <li class="wow animate__animated animate__fadeInUp" data-wow-delay="1.3s">
+                                <i class="bi bi-people" aria-hidden="true"></i>
+                                <div>
+                                    <h3>فضایی برای همه</h3>
+                                    <p>چه برای کار و مطالعه، چه برای گپ‌وگفت دوستانه؛ یک گوشه‌ی آرام برای هر سلیقه
+                                        پیدا می‌شود.</p>
+                                </div>
+                            </li>
                         </ul>
+                        <a href="#contact" class="ReadMore wow animate__animated animate__fadeInUp"
+                            data-wow-delay="1.5s">با ما در ارتباط باشید</a>
                     </div>
-
-
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="products" class="ProductsSection">
+        <div class="container">
+            <div class="SectionTitr text-center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                <h2>محصولات <strong>کافه باریستا</strong></h2>
+            </div>
+            <p class="ProductsIntro text-center wow animate__animated animate__fadeInUp" data-wow-delay=".5s">منوی
+                کافه باریستا؛ از قهوه‌های تازه‌رست تا دمنوش‌های گیاهی و دسرهای خانگی.</p>
+            <ul class="nav nav-tabs ProductsTabs justify-content-center" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="products-tab-coffee" data-bs-toggle="tab"
+                        data-bs-target="#tab-coffee" type="button" role="tab" aria-selected="true"
+                        aria-controls="tab-coffee">قهوه</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="products-tab-tea" data-bs-toggle="tab" data-bs-target="#tab-tea"
+                        type="button" role="tab" aria-selected="false" aria-controls="tab-tea">دمنوش</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="products-tab-dessert" data-bs-toggle="tab"
+                        data-bs-target="#tab-dessert" type="button" role="tab" aria-selected="false"
+                        aria-controls="tab-dessert">دسر و عصرانه</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab-coffee" role="tabpanel"
+                    aria-labelledby="products-tab-coffee">
+                    <!-- کارت‌ها از آرایه‌ی PRODUCTS در js/product.js رندر می‌شوند -->
+                    <div class="ProductsGrid"></div>
+                </div>
+                <div class="tab-pane fade" id="tab-tea" role="tabpanel" aria-labelledby="products-tab-tea">
+                    <!-- کارت‌ها از آرایه‌ی PRODUCTS در js/product.js رندر می‌شوند -->
+                    <div class="ProductsGrid"></div>
+                </div>
+                <div class="tab-pane fade" id="tab-dessert" role="tabpanel" aria-labelledby="products-tab-dessert">
+                    <!-- کارت‌ها از آرایه‌ی PRODUCTS در js/product.js رندر می‌شوند -->
+                    <div class="ProductsGrid"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="articles" class="ArticlesSection">
+        <div class="container">
+            <div class="SectionTitr text-center wow animate__animated animate__fadeInUp">
+                <h2><span>مقالات</span> و راهنماها</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                    <article class="ArticleCard">
+                        <div class="ArticleCard-img">
+                            <img src="Image/article-brewing.jpg" alt="دم‌آوری قهوه با دستگاه دم‌آوری دستی"
+                                loading="lazy" decoding="async">
+                        </div>
+                        <div class="ArticleCard-body">
+                            <span class="ArticleCard-tag">راهنمای قهوه</span>
+                            <h3>راهنمای دم‌آوری قهوه در خانه</h3>
+                            <p>از انتخاب آسیاب مناسب تا نسبت آب و قهوه؛ با چند نکته‌ی ساده، طعم قهوه‌ی خانگی‌تان را
+                                به سطحی تازه ببرید.</p>
+                            <a class="ArticleCard-link" href="#"
+                                aria-label="ادامه مطلب: راهنمای دم‌آوری قهوه در خانه">ادامه مطلب <i
+                                    class="bi bi-arrow-left" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                    <article class="ArticleCard">
+                        <div class="ArticleCard-img">
+                            <img src="Image/article-beans.jpg" alt="دانه‌های قهوه‌ی تازه‌رست با پاروی چوبی"
+                                loading="lazy" decoding="async">
+                        </div>
+                        <div class="ArticleCard-body">
+                            <span class="ArticleCard-tag">دانستنی‌ها</span>
+                            <h3>چگونه دانه‌ی قهوه‌ی تازه انتخاب کنیم؟</h3>
+                            <p>نشانی‌های یک دانه‌ی تازه‌رست را بشناسید؛ از عطر و درخشش دانه‌ها تا اهمیت بسته‌بندی
+                                سالم.</p>
+                            <a class="ArticleCard-link" href="#"
+                                aria-label="ادامه مطلب: چگونه دانه‌ی قهوه‌ی تازه انتخاب کنیم؟">ادامه مطلب <i
+                                    class="bi bi-arrow-left" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
                 </div>
                 <div class="col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
+                    <article class="ArticleCard">
+                        <div class="ArticleCard-img">
+                            <img src="Image/article-tea.jpg" alt="فنجان دمنوش گیاهی با برگ نعنا" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <div class="ArticleCard-body">
+                            <span class="ArticleCard-tag">دمنوش</span>
+                            <h3>دمنوش‌های گیاهی؛ از نعنا تا چای سبز</h3>
+                            <p>نگاهی به دمنوش‌های محبوب کافه‌ها و حال‌وهوای هر کدام؛ از نعنای خنک و پرانرژی تا چای
+                                سبز آرام‌بخش.</p>
+                            <a class="ArticleCard-link" href="#"
+                                aria-label="ادامه مطلب: دمنوش‌های گیاهی؛ از نعنا تا چای سبز">ادامه مطلب <i
+                                    class="bi bi-arrow-left" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section id="why" class="WhySection">
+        <div class="container">
+            <div class="SectionTitr text-center wow animate__animated animate__fadeInUp">
+                <h2>چرا <strong>کافه باریستا</strong></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                            <div class="WhyCard">
+                                <i class="bi bi-fire" aria-hidden="true"></i>
+                                <h3>تازگی قهوه</h3>
+                                <p>قهوه‌ی شما تازه‌رست و در لحظه دم می‌شود؛ از دانه تا فنجان.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                            <div class="WhyCard">
+                                <i class="bi bi-cup-straw" aria-hidden="true"></i>
+                                <h3>گزینه‌ای برای هر سلیقه</h3>
+                                <p>از اسپرسوی غلیظ تا دمنوش‌های گیاهی و دسرهای خانگی.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
+                            <div class="WhyCard">
+                                <i class="bi bi-house" aria-hidden="true"></i>
+                                <h3>فضای دنج</h3>
+                                <p>برای کار، مطالعه یا دورهمی؛ یک گوشه‌ی آرام با فنجانی قهوه.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".9s">
+                            <div class="WhyCard">
+                                <i class="bi bi-stopwatch" aria-hidden="true"></i>
+                                <h3>سرو سریع و دوستانه</h3>
+                                <p>سفارش شما با دقت و بدون معطلی آماده می‌شود.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-md-0 mt-3">
+                    <div class="WhySection-box">
+                        <img src="Image/WhyUS01.jpg" class="wow animate__animated animate__fadeInUp"
+                            data-wow-delay="1.1s" alt="کافه دنج و دوستداشتنی">
+                        <div class="WhySection-box-img">
+                            <img class="wow animate__animated animate__fadeInUp" src="Image/WhyUS02.jpg"
+                                data-wow-delay="1.3s" alt="دانه های قهوه">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="testimonials" class="TestimonialsSection">
+        <div class="container">
+            <div class="SectionTitr text-center wow animate__animated animate__fadeInUp">
+                <h2><span>رضایت</span> مشتریان</h2>
+            </div>
+            <div class="TestimonialsCarousel owl-carousel">
+                <div class="TestimonialCard">
+                    <div class="TestimonialCard-stars" role="img" aria-label="امتیاز ۵ از ۵">
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    </div>
+                    <p class="TestimonialCard-text">«قهوه‌ی تازه و فضای آروم؛ باریستا شده جای محبوب من برای جلسات کاری و
+                        قرارهای دوستانه.»</p>
+                    <div class="TestimonialCard-footer">
+                        <span class="TestimonialCard-avatar" aria-hidden="true"> <i class="bi bi-person"
+                                aria-hidden="true"></i></span>
+                        <span class="TestimonialCard-meta">
+                            <strong>مریم رضایی</strong>
+                            <small>مهمان همیشگی</small>
+                        </span>
+                    </div>
+                </div>
+                <div class="TestimonialCard">
+                    <div class="TestimonialCard-stars" role="img" aria-label="امتیاز ۵ از ۵">
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    </div>
+                    <p class="TestimonialCard-text">«اسپرسوی عالی و دسرهای خانگی؛ برخورد پرسنل هم همیشه صمیمانه‌ست.»</p>
+                    <div class="TestimonialCard-footer">
+                        <span class="TestimonialCard-avatar" aria-hidden="true"><i class="bi bi-person"
+                                aria-hidden="true"></i></span>
+                        <span class="TestimonialCard-meta">
+                            <strong>امیر کریمی</strong>
+                            <small>دوستدار قهوه</small>
+                        </span>
+                    </div>
+                </div>
+                <div class="TestimonialCard">
+                    <div class="TestimonialCard-stars" role="img" aria-label="امتیاز ۴ از ۵">
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star" aria-hidden="true"></i>
+                    </div>
+                    <p class="TestimonialCard-text">«دمنوش‌های متنوع و باکیفیت؛ هر بار یک تجربه‌ی تازه. حتماً پیشنهادش
+                        می‌کنم.»</p>
+                    <div class="TestimonialCard-footer">
+                        <span class="TestimonialCard-avatar" aria-hidden="true"><i class="bi bi-person"
+                                aria-hidden="true"></i></span>
+                        <span class="TestimonialCard-meta">
+                            <strong>سارا محمدی</strong>
+                            <small>مشتری</small>
+                        </span>
+                    </div>
+                </div>
+                <div class="TestimonialCard">
+                    <div class="TestimonialCard-stars" role="img" aria-label="امتیاز ۵ از ۵">
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    </div>
+                    <p class="TestimonialCard-text">«سرو سریع و فضای دنج؛ کافه‌ی ثابت آخر هفته‌های ما شده.»</p>
+                    <div class="TestimonialCard-footer">
+                        <span class="TestimonialCard-avatar" aria-hidden="true"><i class="bi bi-person"
+                                aria-hidden="true"></i></span>
+                        <span class="TestimonialCard-meta">
+                            <strong>علی احمدی</strong>
+                            <small>مهمان آخر هفته</small>
+                        </span>
+                    </div>
+                </div>
+                <div class="TestimonialCard">
+                    <div class="TestimonialCard-stars" role="img" aria-label="امتیاز ۵ از ۵">
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    </div>
+                    <p class="TestimonialCard-text">«چیدمان دوستانه و نور مناسب؛ برای مطالعه و کار فوق‌العاده‌ست.»</p>
+                    <div class="TestimonialCard-footer">
+                        <span class="TestimonialCard-avatar" aria-hidden="true"><i class="bi bi-person"
+                                aria-hidden="true"></i></span>
+                        <span class="TestimonialCard-meta">
+                            <strong>نگار حسینی</strong>
+                            <small>دورکار</small>
+                        </span>
+                    </div>
+                </div>
+                <div class="TestimonialCard">
+                    <div class="TestimonialCard-stars" role="img" aria-label="امتیاز ۴ از ۵">
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star-fill" aria-hidden="true"></i>
+                        <i class="bi bi-star" aria-hidden="true"></i>
+                    </div>
+                    <p class="TestimonialCard-text">«کاپوچینوی خوب و دسرهای تازه؛ هر هفته یک گزینه‌ی جدید برای امتحان
+                        کردن دارن.»</p>
+                    <div class="TestimonialCard-footer">
+                        <span class="TestimonialCard-avatar" aria-hidden="true"><i class="bi bi-person"
+                                aria-hidden="true"></i></span>
+                        <span class="TestimonialCard-meta">
+                            <strong>حسین قاسمی</strong>
+                            <small>مشتری قدیمی</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="ContactSection">
+        <div class="container">
+            <div class="SectionTitr text-center wow animate__animated animate__fadeInUp">
+                <h2><span>تماس</span> با ما</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                    <div class="ContactInfo">
+                        <h3>اطلاعات تماس</h3>
+                        <p>برای رزرو میز، سفارش یا هر پرسشی، از راه‌های زیر با ما در ارتباط باشید.</p>
+                        <ul class="ContactInfo-list">
+                            <li>
+                                <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                                <span>تهران، قصر الدشت ، نبش هاشمی</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-phone" aria-hidden="true"></i>
+                                <a href="tel:+989352323600">09352323600</a>
+                            </li>
+                        </ul>
+                        <ul class="sm-list">
+                            <li><a href="https://www.instagram.com/cafe.bariista" target="_blank"
+                                    aria-label="اینستاگرام کافه باریستا"><i class="bi bi-instagram"
+                                        aria-hidden="true"></i></a></li>
+                            <li><a href="https://t.me/989352323600" target="_blank" aria-label="تلگرام کافه باریستا"><i
+                                        class="bi bi-telegram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=989352323600" target="_blank"
+                                    aria-label="واتس‌اپ کافه باریستا"><i class="bi bi-whatsapp"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                    <div class="ContactSection-iframe">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.52935824429267!2d51.369888799656366!3d35.69005670417362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00f2f1a00c1f%3A0xed2962512df7f9b6!2sTehran%20Province%2C%20Tehran%2C%20District%2010%2C%20Qasr-od-Dasht%20St%2C%20Iran!5e0!3m2!1sen!2s!4v1788077393517!5m2!1sen!2s"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                    <div class="footer-box footer-content">
+                        <h5><span>کافه </span>باریستا</h5>
+                        <p>کافه باریستا با عشق به قهوه، فضایی گرم و دلنشین برای دوست‌داران قهوه فراهم کرده است؛ از
+                            اسپرسوی غلیظ تا دمنوش‌های آرامش‌بخش، هر نوشیدنی با دقت و تازه آماده می‌شود.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                    <div class="footer-box footer-address">
+                        <div class="logo-footer">
+                            <a href="/"><img src="Image/logo.png" alt="لوگو کافه باریستا"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
                     <div class="footer-box footer-contact">
                         <h5><span>راه های </span>ارتباطی</h5>
                         <ul>
-                            <li><i class="bi bi-geo-alt-fill"></i><a href="#">ادرس شرکت</a></li>
-                            <li><i class="bi bi-phone"></i><a href="tel:+982177123456">021-77123456</a></li>
-                            <li><i class="bi bi-telephone"></i><a href="tel:+982177123456">021-77123456</a></li>
-                            <li><i class="bi bi-envelope-at"></i><a
-                                    href="mailto:example@support.com">example@support.com</a></li>
+                            <li><i class="bi bi-geo-alt-fill" aria-hidden="true"></i>تهران، قصر الدشت ، نبش هاشمی</span>
+                            </li>
+                            <li><i class="bi bi-phone" aria-hidden="true"></i><a href="tel:+909352323600">
+                                    09352323600</a></li>
+                            <li><i class="bi bi-clock" aria-hidden="true"></i><span>شنبه تا چهارشنبه: ۷ صبح تا ۱۱
+                                    شب</span></li>
+                            <li><i class="bi bi-clock" aria-hidden="true"></i><span>پنجشنبه و جمعه: ۸ صبح تا ۱۲
+                                    شب</span></li>
                         </ul>
 
                     </div>
@@ -138,7 +519,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="copyright">
-                        <p>کپی رایت © 2026 برای Compony محفوظ است. طراحی شده توسط <a href="http://nextlancer.ir/"
+                        <p>کپی رایت © 2026 برای کافه باریستا محفوظ است. طراحی شده توسط <a href="http://nextlancer.ir/"
                                 title="nextlancer" target="_blank">نکست لنسر</a>
                         </p>
                     </div>
@@ -152,11 +533,13 @@
 
 
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/point.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/source.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    <script defer src="js/point.js"></script>
+    <script defer src="js/wow.min.js"></script>
+    <script defer src="js/product.js"></script>
+    <script defer src="js/source.js"></script>
 
 </body>
 

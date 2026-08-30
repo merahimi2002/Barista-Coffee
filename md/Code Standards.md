@@ -36,7 +36,7 @@ SideNav
 ChangeThemeBox
 CustomColorPicker
 ChangeColorBtn
-Homepage
+HeroSection
 footer-box
 footer-address
 footer-links

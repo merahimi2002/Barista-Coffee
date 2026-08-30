@@ -14,7 +14,7 @@ Existing dependencies include:
 
 ```text
 Bootstrap JS
-Owl Carousel
+Owl Carousel (runtime: local jQuery)
 WOW.js
 point.js
 source.js

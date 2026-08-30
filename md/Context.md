@@ -127,6 +127,10 @@ unless they are explicitly provided.
 
 Use clearly marked placeholders when information is missing.
 
+Exception (owner-approved, 2026-08): AI may draft marketing copy on explicit
+owner instruction. Factual claims (numbers, awards, addresses, prices, dates)
+still require owner confirmation before going live.
+
 ---
 
 ## Important Business Rules

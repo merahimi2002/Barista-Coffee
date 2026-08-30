@@ -54,6 +54,14 @@ Existing carousel functionality should remain based on Owl Carousel.
 
 Do not replace it without explicit instruction.
 
+Owl Carousel is jQuery-based. Its runtime is provided locally:
+
+```text
+js/jquery.min.js (jQuery 3.7.1)
+```
+
+jQuery is loaded only as Owl Carousel's runtime dependency. Project code outside Owl initializations stays Vanilla JavaScript.
+
 ---
 
 ## Animation
