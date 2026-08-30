@@ -3,7 +3,7 @@ const PRODUCTS = [
     {
         category: 'coffee',
         name: 'لاته',
-        image: 'Image/product/product-latte.jpg',
+        image: 'Image/product-latte.jpg',
         alt: 'فنجان لاته با لاته‌آرت',
         description: 'اسپرسو با شیر بخارپز و لایه‌ی نازک فوم؛ ملایم و خوش‌عطر.',
         price: '۱۴۵٬۰۰۰'
@@ -11,7 +11,7 @@ const PRODUCTS = [
     {
         category: 'coffee',
         name: 'کاپوچینو',
-        image: 'Image/product/product-cappuccino.jpg',
+        image: 'Image/product-cappuccino.jpg',
         alt: 'فنجان‌های کاپوچینو با لاته‌آرت',
         description: 'ترکیب متعادل اسپرسو، شیر و فوم غلیظ با کمی پودر کاکائو.',
         price: '۱۳۵٬۰۰۰'
@@ -19,7 +19,7 @@ const PRODUCTS = [
     {
         category: 'coffee',
         name: 'فلت وایت',
-        image: 'Image/product/product-flat-white.jpg',
+        image: 'Image/product-flat-white.jpg',
         alt: 'فنجان فلت وایت از نمای بالا با لاته‌آرت برگ',
         description: 'اسپرسو با شیر مخملی؛ طعمی پررنگ‌تر از لاته و به همان اندازه لطیف.',
         price: '۱۴۰٬۰۰۰'
@@ -27,7 +27,7 @@ const PRODUCTS = [
     {
         category: 'coffee',
         name: 'آیس لاته',
-        image: 'Image/product/product-iced-latte.jpg',
+        image: 'Image/product-iced-latte.jpg',
         alt: 'لیوان آیس لاته با شیر و یخ',
         description: 'شیر سرد و اسپرسو روی یخ؛ انتخاب خنک برای روزهای گرم.',
         price: '۱۶۵٬۰۰۰'
@@ -35,7 +35,7 @@ const PRODUCTS = [
     {
         category: 'coffee',
         name: 'آیس آمریکانو',
-        image: 'Image/product/product-iced-americano.jpg',
+        image: 'Image/product-iced-americano.jpg',
         alt: 'لیوان آیس آمریکانو روی پیشخوان',
         description: 'اسپرسو و آب سرد روی یخ؛ ساده، تلخ و خنک.',
         price: '۱۲۵٬۰۰۰'
@@ -43,7 +43,7 @@ const PRODUCTS = [
     {
         category: 'coffee',
         name: 'دانه قهوه تازه‌رست',
-        image: 'Image/product/product-beans.jpg',
+        image: 'Image/product-beans.jpg',
         alt: 'کیسه‌ی کنفی پر از دانه‌های قهوه تازه‌رست',
         description: 'دانه‌ی تازه‌رست برای دم‌آوری در خانه؛ عطر کافه باریستا روی میز شما.',
         price: '۲۸۵٬۰۰۰'
@@ -53,7 +53,7 @@ const PRODUCTS = [
     {
         category: 'tea',
         name: 'دمنوش نعناع',
-        image: 'Image/product/tea-green.jpg',
+        image: 'Image/tea-green.jpg',
         alt: 'دمنوش نعناع با برگ‌های نعناع تازه',
         description: 'خنک و آرامش‌بخش با برگ نعناع تازه؛ همراه خوب پایان یک روز شلوغ.',
         price: '۸۹٬۰۰۰'
@@ -61,7 +61,7 @@ const PRODUCTS = [
     {
         category: 'tea',
         name: 'دمنوش گیاهی',
-        image: 'Image/product/tea-lemon-ginger.jpg',
+        image: 'Image/tea-lemon-ginger.jpg',
         alt: 'فنجان دمنوش گیاهی با کیسه‌های دم‌آوری',
         description: 'ترکیب گیاهان خشک؛ ملایم، خوش‌عطر و بدون کافئین.',
         price: '۹۵٬۰۰۰'
@@ -69,7 +69,7 @@ const PRODUCTS = [
     {
         category: 'tea',
         name: 'چای با شیر',
-        image: 'Image/product/tea-milk.jpg',
+        image: 'Image/tea-milk.jpg',
         alt: 'فنجان چای با شیر در کنار کلوچه',
         description: 'چای سیاه با شیر؛ همراه کلوچه‌ی تازه‌ی روز.',
         price: '۹۸٬۰۰۰'
@@ -77,7 +77,7 @@ const PRODUCTS = [
     {
         category: 'tea',
         name: 'چای سرد لیمو و نعناع',
-        image: 'Image/product/tea-berry.jpg',
+        image: 'Image/tea-berry.jpg',
         alt: 'چای سرد با برش لیمو و نعناع روی یخ',
         description: 'چای سرد با لیموی تازه و نعناع؛ سرشار از طراوت.',
         price: '۱۱۰٬۰۰۰'
@@ -85,7 +85,7 @@ const PRODUCTS = [
     {
         category: 'tea',
         name: 'دمنوش ادویه‌ای',
-        image: 'Image/product/tea-masala.jpg',
+        image: 'Image/tea-masala.jpg',
         alt: 'فنجان دمنوش ادویه‌ای با برگ چای و ادویه‌های معطر',
         description: 'ترکیبی از برگ چای و ادویه‌های معطر؛ گرم و پرطعم.',
         price: '۹۵٬۰۰۰'
@@ -95,7 +95,7 @@ const PRODUCTS = [
     {
         category: 'dessert',
         name: 'عصرانه باریستا',
-        image: 'Image/product/product-breakfast.jpg',
+        image: 'Image/product-breakfast.jpg',
         alt: 'چیدمان عصرانه با نان، پنیر، میوه و نوشیدنی داغ',
         description: 'چیدمانی از نان تازه، پنیر، میوه‌ی فصل و مربا؛ همراه نوشیدنی داغ دلخواه.',
         price: '۱۹۵٬۰۰۰'
@@ -103,7 +103,7 @@ const PRODUCTS = [
     {
         category: 'dessert',
         name: 'کیک شکلاتی',
-        image: 'Image/product/dessert-chocolate-cake.jpg',
+        image: 'Image/dessert-chocolate-cake.jpg',
         alt: 'کیک شکلاتی با گاناش شکلات تلخ',
         description: 'اسفنجی و خوش‌عطر با گاناش شکلات تلخ؛ رفیق همیشگی اسپرسو.',
         price: '۱۹۵٬۰۰۰'
@@ -111,7 +111,7 @@ const PRODUCTS = [
     {
         category: 'dessert',
         name: 'کیک تمشک',
-        image: 'Image/product/dessert-berry.jpg',
+        image: 'Image/dessert-berry.jpg',
         alt: 'برش کیک تمشک با خامه و تمشک تازه',
         description: 'لایه‌های اسفنجی و کرم با تمشک تازه؛ سبک و میوه‌ای.',
         price: '۱۸۵٬۰۰۰'
@@ -119,7 +119,7 @@ const PRODUCTS = [
     {
         category: 'dessert',
         name: 'براونی',
-        image: 'Image/product/dessert-brownie.jpg',
+        image: 'Image/dessert-brownie.jpg',
         alt: 'برش‌های براونی با سس شکلات',
         description: 'مغزدار و فاجی با شکلات تلخ؛ همراه مطمئن قهوه.',
         price: '۱۷۵٬۰۰۰'
@@ -127,7 +127,7 @@ const PRODUCTS = [
     {
         category: 'dessert',
         name: 'چیزکیک بلوبری',
-        image: 'Image/product/dessert-cheesecake.jpg',
+        image: 'Image/dessert-cheesecake.jpg',
         alt: 'برش چیزکیک با سس بلوبری',
         description: 'کرمی و لطیف روی بیسکویت، با سس بلوبری خانگی.',
         price: '۲۱۰٬۰۰۰'
@@ -135,7 +135,7 @@ const PRODUCTS = [
     {
         category: 'dessert',
         name: 'تیرامیسو',
-        image: 'Image/product/dessert-tiramisu.jpg',
+        image: 'Image/dessert-tiramisu.jpg',
         alt: 'برش تیرامیسو با پودر کاکائو',
         description: 'لایه‌های بیسکویت آغشته به قهوه و کرم ماسکارپونه.',
         price: '۲۲۵٬۰۰۰'
